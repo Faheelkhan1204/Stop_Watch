@@ -1,0 +1,104 @@
+/* #watchTimer {
+    margin-top: 200px;
+    position: fixed;
+    margin-left: 400px;
+    width: 20%;
+    text-align: center;
+}
+
+#watchTimer span {
+    font-size: 35px;
+    font-weight: bold;
+}
+
+#button {
+    width: 20%;
+    margin-left: 410px;
+    margin-top: 270px;
+    position: fixed;
+    text-align: center;
+    height: 50px;
+}
+
+#button button {
+    height: 30px;
+}
+
+
+@media screen and (max-width: 530px) {
+    #watchTimer {
+        margin-left: 90px;
+        width: 50%;
+    }
+
+    #button {
+        margin-left: 120px;
+        width: 40%;
+        margin-top: 250px;
+    }
+} */
+/* 
+body {
+    background-color: lightgray; /* Ye color dekh kar aap check kar sakte hain */
+/* } */ 
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+    background-color: #eadede;
+    font-family: Arial, sans-serif;
+}
+
+#watchTimer {
+    background-color: #f9f7f7;
+    border: 2px solid #4caf50;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    font-size: 50px;
+}
+
+#watchTimer span {
+    font-weight: bold;
+    color: #4caf50;
+}
+
+#button {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+#button button {
+    background-color: #4caf50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    font-size: 30px;
+    margin: 0 10px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+#button button:hover {
+    background-color: #45a049;
+}
+
+@media screen and (max-width: 530px) {
+    #watchTimer {
+        width: 80%;
+    }
+
+    #button {
+        flex-direction: column;
+    }
+
+    #button button {
+        width: 100%;
+        margin: 5px 0;
+    }
+}
